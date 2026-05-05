@@ -1,0 +1,42 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Local/internal project notes
+.claude/
+handoff.md
+DESIGN-apple.md
+COLOR-TEMPLATE.md
+
+# Not used by the published static site
+script.js
+design files/
+
+# Old local working folders
+main/
+personal-page-draft/
+personal-page-feature/
